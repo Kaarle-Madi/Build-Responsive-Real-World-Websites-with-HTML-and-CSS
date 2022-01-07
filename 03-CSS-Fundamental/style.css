@@ -5,6 +5,14 @@ h4,
 p,
 li {
   font-family: serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+  /* over written color */
 }
 
 h1 {
@@ -35,6 +43,40 @@ li {
 footer p {
   font-size: 16px;
 }
-article header p {
+
+/* article header p {
+font-style: italic;
+} */
+
+#author {
   font-style: italic;
+  font-size: 18px;
 }
+#copyright {
+  font-size: 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* ul {
+  list-style: none;
+}  */
+.img-related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+/* set color for entire webpage */
+/* body{
+  background-color: orange;
+} */

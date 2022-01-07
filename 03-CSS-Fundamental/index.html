@@ -6,7 +6,7 @@
     <title>The Basic Language of the Web: HTML</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
 
       <nav>
@@ -28,7 +28,9 @@
           width="50"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
 
         <img
           src="img/post-img.jpg"
@@ -103,27 +105,27 @@
 
     <aside>
       <h4>Related post</h4>
-      <ul>
+      <ul class="img-related">
         <li>
           <img src="img/related-1.jpg" alt="related-1" width="75" width="75" />
           <a href="#">How to Learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img src="img/related-2.jpg" alt="related-2" width="75" width="75" />
           <a href="#">The Unknown Power of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img src="img/related-3.jpg" alt="related-3" width="75" width="75" />
           <a href="#">Why JavaScript is Awesome</a>
-          <p>By Matalda</p>
+          <p class="related-author">By Matalda</p>
         </li>
       </ul>
     </aside>
 
     <footer>
-      <p>Copyright &copy; 2027 by The Code Magazine.</p>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
     </footer>
   </body>
 </html>
