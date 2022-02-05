@@ -1,0 +1,64 @@
+.main-grid-box {
+  display: grid;
+
+  /* grid-template-columns: auto auto auto auto; == grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  /* gap: 30px; */
+  column-gap: 20px;
+  row-gap: 40px;
+
+  background-color: #ededed;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 40px;
+}
+
+.box {
+  height: 150px;
+}
+
+.block-1 {
+  background-color: #b43a3a;
+}
+.block-2 {
+  background-color: #7dca7d;
+}
+.block-3 {
+  background-color: #5a62d1;
+}
+.block-4 {
+  background-color: #d153b1;
+}
+.block-5 {
+  background-color: #50d45b;
+}
+.block-6 {
+  background-color: #bfd656;
+}
+.block-7 {
+  background-color: #d36c6c;
+}
+.block-8 {
+  background-color: #252525;
+  color: white;
+  position: relative;
+
+  /* grid-column: 1 / 4; */
+  grid-column: 1 / span 3;
+  grid-row: 2 / 3;
+}
+
+.block-8::after {
+  content: "EIGHT";
+  font-style: sans-serif;
+  background-color: yellow;
+  padding: 5px 10px;
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+}
