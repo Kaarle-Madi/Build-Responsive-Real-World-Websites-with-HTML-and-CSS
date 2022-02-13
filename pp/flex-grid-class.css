@@ -50,4 +50,14 @@
 .p-related {
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 0;
+}
+.flex-related {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+.related-margin {
+  margin-left: 20px;
 }
