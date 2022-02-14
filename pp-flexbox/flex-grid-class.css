@@ -1,13 +1,6 @@
 .container {
   margin: 0 auto;
   width: 1200px;
-
-  display: grid;
-  grid-template-columns: 1fr 300px;
-  column-gap: 75px;
-  row-gap: 60px;
-
-  align-items: start;
 }
 
 .main-header {
@@ -15,10 +8,9 @@
   align-items: center;
   justify-content: space-between;
 
-  grid-column: 1 / -1;
-
   padding: 20px 40px;
   background-color: #efefef;
+  margin-bottom: 60px;
 }
 .post-header {
   margin-bottom: 40px;
@@ -29,8 +21,7 @@
   font-size: 18px;
 }
 .post-img {
-  width: 100%;
-  height: auto;
+  width: 100% auto;
 }
 .flex-img-posted-by {
   display: flex;
@@ -42,7 +33,11 @@
   font-size: 18px;
   margin-left: 15px;
 }
-
+.related-posts {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
 .aside-ul {
   list-style: none;
 }
@@ -52,9 +47,8 @@
   width: 75px;
 }
 .p-related {
-  font-size: 14px;
-  font-weight: normal;
-  font-style: italic;
+  font-size: 18px;
+  font-weight: bold;
   margin-bottom: 0;
 }
 .flex-related {
@@ -65,12 +59,4 @@
 }
 .related-margin {
   margin-left: 20px;
-}
-
-.related-link {
-  font-size: 17px;
-  font-weight: bold;
-  font-style: normal;
-  margin-bottom: 5px;
-  display: block;
 }
