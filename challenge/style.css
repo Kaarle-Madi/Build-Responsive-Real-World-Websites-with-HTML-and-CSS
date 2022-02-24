@@ -1,0 +1,51 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.img-shoes {
+  height: 250px;
+  weight: 250px;
+}
+body {
+  font-family: sans-serif;
+  border: 5px solid black;
+}
+.price {
+  font-weight: bold;
+}
+.more-info {
+}
+p {
+  line-height: 1.5;
+}
+.detail-list {
+  list-style: square;
+}
+h1 {
+  text-align: center;
+  background-color: #efefefef;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+.add-to-chart {
+  border: none;
+  font-size: 20px;
+
+  color: white;
+  text-transform: uppercase;
+}
+.link-add-to-chart {
+  background-color: #000;
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+
+.link-add-to-chart:hover {
+  background-color: white;
+  color: black;
+}
